@@ -30,3 +30,7 @@ ball_rect = pygame.Rect(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2, 25, 25)
 ball_accel_x = random.randint(2, 4) * 0.1
 ball_accel_y = random.randint(2, 4) * 0.1
 
+if random.randint(1, 2) == 1:
+    ball_accel_x *= -1
+if random.randint(1, 2) == 1:
+    ball_accel_y *= -1
