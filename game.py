@@ -22,4 +22,10 @@ def main():
             if event.type == pygame.QUIT:
                 return
 
-            
+paddle_1_rect = pygame.Rect(30, 0, 7, 100)
+paddle_2_rect = pygame.Rect(SCREEN_WIDTH - 50, 0, 7, 100)
+
+paddle_1_move = 0
+paddle_2_move = 0
+
+
