@@ -44,5 +44,11 @@ def main():
         # UPDATE DISPLAY
         pygame.display.update()
 
+
+        clock = pygame.time.Clock()
+        started = False
+        delta_time = clock.time(60)
+        
+
 if __name__ == "__main__":
     main()
